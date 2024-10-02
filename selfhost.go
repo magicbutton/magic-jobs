@@ -34,9 +34,9 @@ func CreateSelfExecutingJob(jobName, namespace string) error {
 								"sh", "-c",
 								`
                                 echo "Installing and running Go program...";
-                                go install github.com/ngjoh/kokskat-k8@latest;
+                                go install github.com/magicbutton/magic-jobs@latest;
                                 echo "Running installed Go program...";
-                                /go/bin/kokskat-k8 showjob;
+                                magic-job showjob;
                                 echo "Job finished.";
                                 `,
 							},

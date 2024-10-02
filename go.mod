@@ -1,4 +1,4 @@
-module github.com/ngjoh/magic-jobs
+module github.com/magicbutton/magic-jobs
 
 go 1.22.1
 
